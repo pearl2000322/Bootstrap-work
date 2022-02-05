@@ -1,0 +1,153 @@
+@font-face {
+    font-family: AvenirLTStd-Black;
+    src: url(../font/AvenirLTStd-Black.woff2);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(../font/AvenirLTStd-Book.woff2);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(../font/AvenirLTStd-Roman.woff2);
+}
+
+ul, li {
+    font-family: AvenirLTStd-Black;
+}
+
+.topnavbar {
+    z-index: 1;
+    overflow: hidden !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.content_wrap {
+    margin: 15px;
+    margin-top: 5%;
+}
+
+.wrap_timeline {
+    text-align: center;
+    margin: 3%;
+}
+
+.text_timeline {
+    color: red;
+}
+
+.info_wrap {
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgb(64 60 67 / 16%);
+    border-right: 6px solid #04AA6D;
+    border-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info_wrap:hover {
+    border-right: 6px solid #0d5e94;
+    box-shadow: 0 4px 10px 4px rgb(64 60 67 / 16%);
+}
+
+.person_img1 {
+    width: 70px;
+    height: 105px;
+    border-radius: 8px;
+}
+
+.person_img {
+    width: 100px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.jus_h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    margin: 3%;
+}
+
+.con_wrao {
+    padding: 15px;
+    box-shadow: 0 3px 5px 3px rgb(64 60 67 / 16%);
+}
+
+.shadow_ef {
+    width: 50%;
+    margin: 5px;
+    box-shadow: 0 2px 4px 2px rgb(64 60 67 / 16%);
+}
+
+.divide {
+    display: flex;
+    justify-content: space-around;
+}
+
+#myBtn:hover {
+    cursor: pointer;
+    color: #0d5e94;
+}
+
+#myBtn1:hover {
+    cursor: pointer;
+    color: #0d5e94;
+}
+
+.main_page {
+    margin: 100px 200px 100px 50px;
+}
+
+.first_img {
+    width: 135px;
+    height: 210px;
+}
+
+@media screen and (max-width: 560px) {
+    .search_btn {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divide {
+        display: unset;
+    }
+
+    .shadow_ef {
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+        box-shadow: 0 2px 4px 2px rgb(64 60 67 / 16%);
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .timeline {
+        display: none !important;
+    }
+
+    .overview {
+        margin: 0 !important;
+    }
+
+    .right_space {
+        display: none !important;
+    }
+
+    .main_page {
+        margin: 30px !important;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .timeline {
+        margin-left: 5%;
+    }
+}
